@@ -1,0 +1,17 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  font-size: 1.4rem;
+
+  &.squared {
+    background: getColour(heading);
+    width: 300px;
+    height: 200px;
+    margin-bottom: 1em;
+  }
+}

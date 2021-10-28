@@ -1,6 +1,30 @@
 nav {
-  background: getColour(box);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: getColour(heading);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  a {
+    text-decoration: white;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+
+  li {
+    margin-left: 1em;
+  }
+
+  a.active {
+    background: getColour (grey);
+    padding: 0.4em;
+    border-radius: 5px;
+  }
 }
