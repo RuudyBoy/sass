@@ -3,7 +3,12 @@
     "mappings": "",
     "sources": [
         "../sass/style.scss",
-        "../sass/partials/_variables.scss"
+        "../sass/partials/_variables.scss",
+        "../sass/partials/_base.scss",
+        "../sass/partials/_buttons",
+        "../sass/partials/_forms.scss",
+        "../sass/partials/_nav.scss"
+
     ],
     "names": [],
     "file": "style.css"
